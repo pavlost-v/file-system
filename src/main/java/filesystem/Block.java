@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Block {
-    private ArrayList<Byte> bytes;
+
+    protected ArrayList<Byte> bytes;
 
     public final int MAX_SIZE = 512;
 
